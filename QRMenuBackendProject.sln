@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{952E4CA4-29FC-4EC4-8C0A-BD2964AC4B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6BF8378D-3CA9-41D8-80C5-3B759301CA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRMenuBackendProject.Persistance", "Infrastructure\QRMenuBackendProject.Persistance\QRMenuBackendProject.Persistance.csproj", "{52398425-B9CE-47BC-9D32-E66E965BEC17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CA289FFE-D847-43D6-ACE6-2BE5EA3D2507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRMenuBackendProject.WebApi", "Presentation\QRMenuBackendProject.WebApi\QRMenuBackendProject.WebApi.csproj", "{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRMenuBackendProject.Application", "Core\QRMenuBackendProject.Application\QRMenuBackendProject.Application.csproj", "{F63BA085-4178-4470-8D40-3C055B87FAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRMenuBackendProject.Domain", "Core\QRMenuBackendProject.Domain\QRMenuBackendProject.Domain.csproj", "{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52398425-B9CE-47BC-9D32-E66E965BEC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52398425-B9CE-47BC-9D32-E66E965BEC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52398425-B9CE-47BC-9D32-E66E965BEC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52398425-B9CE-47BC-9D32-E66E965BEC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63BA085-4178-4470-8D40-3C055B87FAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63BA085-4178-4470-8D40-3C055B87FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63BA085-4178-4470-8D40-3C055B87FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63BA085-4178-4470-8D40-3C055B87FAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52398425-B9CE-47BC-9D32-E66E965BEC17} = {6BF8378D-3CA9-41D8-80C5-3B759301CA74}
+		{C29FFCD6-D545-4C88-BC15-BB8FC6A076B4} = {CA289FFE-D847-43D6-ACE6-2BE5EA3D2507}
+		{F63BA085-4178-4470-8D40-3C055B87FAB6} = {952E4CA4-29FC-4EC4-8C0A-BD2964AC4B2C}
+		{74B8B7E9-AB7D-4DF7-9250-FF3590C66B4C} = {952E4CA4-29FC-4EC4-8C0A-BD2964AC4B2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D6179C8-69DA-479A-B818-095BC6A2D446}
+	EndGlobalSection
+EndGlobal
